@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: white;
+    flex-wrap: wrap;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .logo .icon {
+    font-size: 26px;
+    margin-right: 10px;
+  }
+  
+  .brand {
+    font-size: 24px;
+  }
+  
+  .blue {
+    color: #0057ff;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    flex-wrap: wrap;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+  }
+  
+  .login-container {
+    background-color: #08358d;
+    color: white;
+    max-width: 100%;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .login-container h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .user-icon {
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+  
+  form {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #003d91;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  /* Estilo para la sección funcionalidades */
+  .features-section {
+    background-color: #08358d;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .features-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .features-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .feature {
+    max-width: 200px;
+  }
+  
+  .feature img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para el footer (aplicable a todas las pantallas) */
+  .footer {
+    background-color: #4da1ff; /* azul claro */
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 14px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* opcional: sombra superior */
+  }
+  
+  .footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+  
+    form {
+      width: 100%;
+    }
+  
+    .login-container {
+      padding: 40px 20px;
+    }
+  
+    .features-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  
+  
+
+
+
